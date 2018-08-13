@@ -2,6 +2,7 @@
 >Redux 是 JavaScript 状态容器，提供可预测化的状态管理。
 >Redux的中文文档可见[http://www.redux.org.cn](http://www.redux.org.cn)。
 >本案例的gitbub地址[https://github.com/josson001/redux.git](https://github.com/josson001/redux.git),希望给个star。
+
 ###Redux的基础原理
 + state 作为仓库，保存数据。
 + action 通过 
@@ -17,6 +18,7 @@ store.dispatch({
 //因为我将store 绑定到了 React上；
  React.store.subscribe(render);
 ```
+
 ###Redux的开始前准备
 本文主要讲解的是在react脚手架中使用；
 + 已经配置node环境。
@@ -31,8 +33,10 @@ $ npm start
 ```
 $ npm install --save redux
 ```
+
 ###React 脚手架的目录结构
 ![create-react-app.jpg](https://upload-images.jianshu.io/upload_images/10474135-ce7a00d81d995080.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 ####其中我们主要关注src目录下的内容
 我将Redux的引入写在了App.js文件里
  ```
