@@ -112,6 +112,6 @@ class App extends Component {
 React.store = store;
 ```
 
->特别感谢veblen大神的指点.
+
 
 
